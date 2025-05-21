@@ -4,6 +4,6 @@
 
     <project remote="yocto" name="poky" revision="scarthgap" path="sources/poky"/>
     <project remote="yocto" name="meta-raspberrypi" revision="scarthgap" path="sources/meta-raspberrypi"/>
-    <project remote="oe" name="meta-openembedded" revision="sumo" path="sources/meta-openembedded"/>
+    <project remote="oe" name="meta-openembedded" revision="scarthgap" path="sources/meta-openembedded"/>
 
 </manifest>
