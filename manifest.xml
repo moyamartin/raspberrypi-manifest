@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><manifest>
     <remote fetch="https://git.yoctoproject.org" name="yocto"/>
     <remote fetch="https://git.openembedded.org" name="oe"/>
+    <remote fetch="https://github.com/sbabic" name="swupdate"/>
 
     <project remote="yocto" name="poky" revision="scarthgap" path="sources/poky"/>
     <project remote="yocto" name="meta-raspberrypi" revision="scarthgap" path="sources/meta-raspberrypi"/>
     <project remote="oe" name="meta-openembedded" revision="scarthgap" path="sources/meta-openembedded"/>
+    <project remote="swupdate" name="meta-swupdate" revision="scarthgap" path="sources/meta-swupdate"/>
 
 </manifest>
